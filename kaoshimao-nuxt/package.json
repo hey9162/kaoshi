@@ -1,0 +1,28 @@
+{
+  "name": "ksm-opy",
+  "version": "1.0.0",
+  "keywords": "考试猫-国家电网安规考试(综合练习)|练习题库|配电线路题库|电工考试题库|模拟考试题库_考试猫",
+  "description": "随时随地在线练习/考试通过神器，在线安规库 全真模拟练习,助你安规考试过关。",
+  "author": "15737540168",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --port 3333 && cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.9.1",
+    "express": "^4.16.4",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.4.0",
+    "sass-loader": "^7.1.0",
+    "vue-quill-editor": "^3.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

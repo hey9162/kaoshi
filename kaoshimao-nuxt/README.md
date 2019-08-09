@@ -1,0 +1,1 @@
+#kaoshimao-nuxt
